@@ -1,0 +1,1205 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-image: url(image/bgr-image.png);
+}
+
+
+/* ПЕРВЫЙ БЛОК */
+.info-header {
+    display: grid;
+    grid-template-areas: 
+      "first-empty top-logo number all-menu"
+      "first-empty logo-information baby scroll-bottom"
+      "first-empty link-nemo baby scroll-bottom"
+      "two-empty two-button autors scroll-bottom";
+    grid-template-columns: 246fr 754fr 729fr 189fr;
+    grid-template-rows: 137px 400px 295px 247px;
+    font-family: Helvetica, sans-serif;
+}
+.first-empty {
+    grid-area: first-empty;
+    border-right: 1px solid #F8F9FA;
+}
+
+/* ЛОГО И ИНФОРМАЦИЯ*/
+.top-logo {
+    padding-left: 10%;
+    border-right: 1px solid #F8F9FA;
+}
+.logo-information {
+    grid-area: logo-information;
+    border-right: 1px solid #F8F9FA;
+    padding-left: 10%;
+}
+.logo {
+    margin-top: 8%;
+}
+.sed-ut-perspiciatis {
+    margin-top: 15%;
+    width: 300px;
+    height: 13px;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 2;
+    letter-spacing: 4.2px;
+    color: #ee4f4b;
+}
+.good-luck-with-your-test-task {
+    width: 568px;
+    height: 151px;
+    font-size: 52px;
+    font-weight: 900;
+    letter-spacing: 1.8px;
+    color: #17120e;
+}
+.nemo-enim-ipsam {
+    width: 300px;
+    height: 13px;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 2;
+    letter-spacing: 4.2px;
+    color: #ee4f4b;
+}
+.Neque-porro-quisquam {
+    width: 360px;
+    height: 63px;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: left;
+    color: #17120e;
+}
+.link-nemo {
+    grid-area: link-nemo;
+    padding-left: 10%;
+    border-right: 1px solid #F8F9FA;
+}
+.link-nemo img {
+    width: 27px;
+    height: 30px;
+}
+/**/
+.number {
+    grid-area: number;
+    text-align: right;
+    padding-top: 50px;
+    padding-right: 3%;
+}
+
+/**/
+.phone-icon {
+    width: 31px;
+    height: 31px;
+}
+.phone-black {
+    display: none;
+}
+.number-company {
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+/**/
+.all-menu {
+    grid-area: all-menu;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu-red {
+    display: inline-block;
+    margin-top: 55px;
+    width: 39px;
+    height: 25px;
+}
+
+/**/
+.baby {
+    grid-area: baby;
+    border-right: 1px solid #F8F9FA;
+    padding-top: 5%;
+    padding-left: 20%;
+}
+.baby-boss {
+    width: 289px;
+    height: 586px;
+}
+
+/**/
+.scroll-bottom {
+    grid-area: scroll-bottom;
+    text-align: center;
+    padding-top: 140px;
+}
+.scroll-to-discover {
+    padding-left: 45%;
+    width:1px;
+    display: block;
+    word-wrap: break-word;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 500;
+    color: #848484;
+}
+.scroll-bottom p:nth-child(4) {
+    display: none;
+}
+.arrow-scroll {
+    display: inline-block;
+    margin-top: 290px;
+}
+.arrow-scroll img {
+    width: 47px;
+    height: 55px;
+}
+
+/**/
+.two-empty {
+    grid-area: two-empty;
+    background-color: #D74641;
+    border-right: 1px solid #F8F9FA;
+}
+
+/**/
+.two-button {
+    grid-area: two-button;
+    background-color: #D74641;
+    border-right: 1px solid #F8F9FA;
+    padding-left: 10%;
+}
+.just-upload-your-file-here {
+    margin-top: 60px;
+    color: white;
+    opacity: 0.6;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5.4px;
+}
+.two-red-button {
+    background-color: white;
+    display: flex;
+    width: 80%;
+    height: 85px;
+    border: 1px solid white;
+}
+.drag-and-drop,
+.select-file {
+    width: 50%;
+    background-color: #D74641;
+    border: 0px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+}
+.drag-and-drop {
+    border-right: 1px solid white;
+}
+.two-button img {
+    margin: 15px 5% 0px 10%;
+}
+
+/**/
+.autors {
+    grid-area: autors;
+    background-color: #D74641;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first-autor,
+.two-autor {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.bono-malorum,
+.rackham {
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    opacity: 0.6;
+}
+.autor-sed-ut-perspiciatis,
+.more-information {
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+}
+.line-autors {
+    width: 20%;
+    height: 1px;
+    border-top: 1px solid white;
+    margin: 0px 5% 0px 5%;
+}
+
+/*ВТОРОЙ БЛОК*/
+.grid-list-information {
+    display: grid;
+    grid-template-areas: 
+      "logo-two-block logo-two-block first-gray-empty two-gray-empty menu-two-block"
+      "first-white-empty two-white-empty list-information two-gray-empty third-gray-empty"
+      "first-white-empty number-fraction list-information two-gray-empty third-gray-empty"
+      "first-white-empty number-fraction list-information two-gray-empty scroll-bottom-two-block"
+      "first-red-empty third-white-empty list-information two-gray-empty scroll-bottom-two-block";
+    grid-template-columns: 245fr 170fr 1255fr 61fr 189fr;
+    grid-template-rows: 239px 79px 104px 410px 248px;
+    font-family: Helvetica, sans-serif;
+}
+
+/**/
+.logo-two-block {
+    grid-area: logo-two-block;
+    border-right: 1px solid #8B8B8B;
+    background-color: #E6E6E6;
+    padding-top: 40px;
+    padding-left: 15%;
+}
+.logo-two-block img {
+    width: 185px;
+    height: 58px;
+}
+/**/
+.first-gray-empty {
+    grid-area: first-gray-empty;
+    background-color: #E6E6E6;
+}
+
+/**/
+.menu-two-block {
+    grid-area: menu-two-block;
+    background-color: #E6E6E6;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu-black {
+    display: inline-block;
+    margin-top: 55px;
+    width: 39px;
+    height: 25px;
+}
+/**/
+.first-white-empty {
+    grid-area: first-white-empty;
+}
+
+/**/
+.two-white-empty {
+    grid-area: two-white-empty;
+    border-right: 1px solid #8B8B8B;
+}
+
+/**/
+.list-information {
+    grid-area: list-information;
+    padding: 0px 13% 0px 11%;
+}
+.Quis-autem-vel {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-top: 130px;
+}
+.Ut-enim-ad-minima-veniam {
+    font-size: 36px;
+    color: #D74641;
+    line-height: 5px;
+    margin-bottom: 60px;
+}
+.list-information ol {
+    padding: 0px;
+}
+.list-information ol li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    color: #D74641;
+    font-size: 18px;
+    font-weight: bold;
+    counter-increment: list;
+}
+.list-information ol li:before {
+    content: counter(list) " ";
+    line-height: 30px;
+}
+.list-information li p {
+    color: black;
+    font-weight: 100;
+    line-height: 30px;
+    margin: 0px 0% 0% 2%;
+    letter-spacing: 1px;
+}
+.finibus-bonorum-et-malorum {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 4.8px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+.red-bonorum {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+}
+.finibus {
+    margin-right: 1%;
+}
+.bonorum-et-malorum {
+    color: #D74641;
+}
+.red-line {
+    width: 28%;
+    height: 1px;
+    border-top: 1px solid #D74641;
+    margin: 0px 0% 0px 3%;
+}
+
+/**/
+.two-gray-empty {
+    grid-area: two-gray-empty;
+    background-color: #E6E6E6;
+    border-right: 1px solid #E4E4E4;
+}
+
+/**/
+.third-gray-empty {
+    grid-area: third-gray-empty;
+    background-color: #E6E6E6;
+}
+
+/**/
+.number-fraction {
+    grid-area: number-fraction;
+    border: 1px solid #8B8B8B;
+    text-align: center;
+}
+.fraction {
+    transform: rotate(-90deg);
+    margin-top: 80px;
+    font-size: 70px;
+    font-weight: bold;
+    color: #D8D5D5;
+    word-wrap: break-word;
+    letter-spacing: 5.4px;
+}
+.red-circle {
+    width: 10px;
+    height: 10px;
+    background-color: #D74641;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 47%;
+}
+.gray-circle {
+    width: 7px;
+    height: 7px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 48%;
+}
+
+/**/
+.scroll-bottom-two-block {
+    grid-area: scroll-bottom-two-block;
+    background-color: #E6E6E6;
+    border-top: 1px solid #8B8B8B;
+    border-left: 1px solid #8B8B8B;
+    padding-top: 100px;
+}
+.scroll-bottom-two-block p:nth-child(4) {
+    display: none;
+}
+.arrow-scroll-two-block {
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 35%;
+}
+.arrow-scroll-two-block img {
+    width: 47px;
+    height: 55px;
+}
+
+/**/
+.first-red-empty {
+    grid-area: first-red-empty;
+    background-color: #D74641;
+}
+
+/**/
+.third-white-empty {
+    grid-area: third-white-empty;
+}
+
+
+/* ==============АДАПТАЦИЯ====================*/
+
+@media screen and (max-width:1848px){
+    .grid-list-information {
+        grid-template-rows: 239px 79px 104px 410px auto;
+    }
+}
+@media screen and (max-width:1638px){
+    .line-autors {
+    width: 15%;
+    }
+    .first-autor,
+    .two-autor {
+    font-size: 20px;
+    }
+}
+@media screen and (max-width:1400px){
+    .first-autor,
+    .two-autor {
+    font-size: 16px;
+    } 
+}
+@media screen and (max-width:1070px){
+    .baby {
+    grid-area: baby;
+    border-right: 1px solid #F8F9FA;
+    padding-top: 20%;
+    padding-left: 20%;
+    }
+    .baby-boss {
+    width: 203px;
+    height: 411px;
+    }
+    .line-autors {
+    width: 10%;
+    }
+    .first-autor,
+    .two-autor {
+    font-size: 12px;
+    }
+}
+@media screen and (max-width:1024px){
+    .info-header {
+    grid-template-areas: 
+      "top-logo top-logo number all-menu"
+      "logo-information logo-information baby scroll-bottom"
+      "link-nemo link-nemo baby scroll-bottom"
+      "two-button autors autors scroll-bottom";
+    grid-template-columns: 283fr 125fr 263fr 96fr;
+    grid-template-rows: 137px 400px 295px 247px;
+    }
+    .top-logo {
+        width: 133.8%;
+    }
+    .logo {
+        width: 188px;
+        height: 60px;
+    }
+    .sed-ut-perspiciatis {
+        margin-top: 10%;
+        width: 90%;
+        font-size: 24px;
+        letter-spacing: 5.5px;
+    }
+    .good-luck-with-your-test-task {
+        margin-top: 40px;
+        width: 90%;
+        height: 340px;
+        font-size: 76px;
+    }
+    .nemo-enim-ipsam {
+        margin-top: 70px;
+        width: 95%;
+        font-size: 22px;
+        letter-spacing: 5.5px;
+    }
+    .Neque-porro-quisquam {
+        width: 100%;
+        font-size: 30px;
+        letter-spacing: 1.5px;
+        margin-bottom: 50px;
+    }
+    .number {
+        padding-top: 40px;
+        padding-right: 10%;
+        border-right: 1px solid #F8F9FA;
+    }
+    .phone-icon {
+        width: 35px;
+        height: 35px;
+    }
+    .number-company {
+        font-size: 34px;
+        letter-spacing: 1.5px;
+    }
+    .baby {
+        padding-top: 15%;
+        padding-left: 5%;
+    }
+    .baby-boss {
+        width: 289px;
+        height: 586px;
+    }
+    .two-red-button {
+        width: 90%;
+        height: 75px;
+    }
+    .just-upload-your-file-here {
+        font-size: 20px;
+        margin: 40px 0px;
+    }
+    .drag-and-drop {
+        display: none;
+    }
+    .select-file {
+        width: 100%;
+        padding-left: 20%;
+    }
+    .autors {
+        padding-left: 5%;
+    }
+    .line-autors {
+        width: 5%;
+    }
+    .first-autor,
+    .two-autor {
+        font-size: 25px;
+    }
+    .scroll-bottom {
+        padding-top: 370px;
+    }
+    .scroll-to-discover {
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .scroll-bottom p:nth-child(3) {
+        display: none;
+    }
+    .scroll-bottom p:nth-child(4) {
+        display: block;
+    }
+    .arrow-scroll {
+        margin-top: 60px;
+    }
+    
+    
+    .grid-list-information {
+        grid-template-areas: 
+          "logo-two-block logo-two-block first-gray-empty menu-two-block"
+          "first-white-empty two-white-empty list-information third-gray-empty"
+          "first-white-empty number-fraction list-information third-gray-empty"
+          "first-white-empty number-fraction list-information scroll-bottom-two-block"
+          "first-red-empty third-white-empty list-information scroll-bottom-two-block";
+        grid-template-columns: 65fr 82fr 525fr 96fr;
+        grid-template-rows: 239px 79px 104px 1300px 627px;
+    }
+    .scroll-bottom-two-block {
+        border: 1px solid #E2E2E2;
+        padding-top: 1100px;
+    }
+    .scroll-bottom-two-block p:nth-child(3) {
+        display: none;
+    }
+    .scroll-bottom-two-block p:nth-child(4) {
+        display: block;
+    }
+    .scroll-bottom-two-block p {
+        color: #858483;
+    }
+    .Quis-autem-vel {
+        font-size: 24px;
+    }
+    .Ut-enim-ad-minima-veniam {
+        font-size: 38px;
+    }
+    .list-information ol li {
+        font-size: 24px;
+    }
+    .list-information li p {
+        line-height: 45px;
+        margin: 0px 0% 0% 5%;
+        letter-spacing: 1.3px;
+    }
+    .list-information ol li:before {
+        content: counter(list) " ";
+        line-height: 43px;
+    }
+    .finibus-bonorum-et-malorum {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 22px;
+        margin-top: 190px;
+        margin-bottom: 100px;
+    }
+    .finibus {
+        padding: 0px;
+        margin: 0px;
+    }
+    .bonorum-et-malorum {
+        margin: 0px;
+    }
+    .red-bonorum {
+        width: 100%;
+    }
+    .red-line {
+        width: 15%;
+    }
+}
+@media screen and (max-width:1010px){
+    .good-luck-with-your-test-task {
+        font-size: 70px;
+    }
+    .nemo-enim-ipsam {
+        margin-top: 30px;
+        font-size: 22px;
+    }
+    .Neque-porro-quisquam {
+        margin-bottom: 80px;
+    }
+    .first-autor,
+    .two-autor {
+        font-size: 22px;
+    }
+    .Ut-enim-ad-minima-veniam {
+        font-size: 34px;
+    }
+    .grid-list-information {
+        grid-template-rows: 239px 79px 104px 1300px 677px;
+    }  
+}
+@media screen and (max-width:935px){
+    .sed-ut-perspiciatis {
+        font-size: 16px;
+    }
+    .good-luck-with-your-test-task {
+        font-size: 50px;
+        height: 250px;
+    }
+    .nemo-enim-ipsam {
+        margin-top: 0px;
+        font-size: 16px;
+    }
+    .Neque-porro-quisquam {
+        font-size: 24px;
+    }
+    .first-autor,
+    .two-autor {
+        font-size: 19px;
+    }
+    .Quis-autem-vel {
+        font-size: 18px;
+    }
+    .Ut-enim-ad-minima-veniam {
+        font-size: 26px;
+    }
+    .grid-list-information {
+        grid-template-rows: 239px 79px 104px 1300px 760px;
+    } 
+    .finibus-bonorum-et-malorum {
+        font-size: 14px;
+        margin-top: 120px;
+        margin-bottom: 40px;
+    }
+    .logo-two-block img {
+        width: 155px;
+        height: 48px;
+    }
+}
+@media screen and (max-width:735px){
+    .info-header {
+    grid-template-areas: 
+        "top-logo number all-menu"
+        "logo-information logo-information logo-information"
+        "baby baby baby"
+        "link-nemo link-nemo link-nemo"
+        "two-button two-button two-button"
+        "autors autors autors"
+        "scroll-bottom scroll-bottom scroll-bottom";
+    grid-template-columns: 40fr 10fr 10fr;
+    grid-template-rows: 130px 300px 595px 207px 280px 200px 250px;
+    }
+    .top-logo {
+        width: 90%;
+        border: none;
+        padding-left: 7%;
+    }
+    .number {
+        border: none;
+        padding-left: 40%;
+        padding-top: 45px;
+    }
+    .number-company {
+        display: none;
+    }
+    .phone-icon {
+        display: none;
+    }
+    .phone-black {
+        display: block;
+        width: 41px;
+        height: 41px;
+    }
+    .logo-information {
+        padding-left: 5%;
+    }
+    .sed-ut-perspiciatis {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .good-luck-with-your-test-task {
+        font-size: 70px;
+    }
+    .baby {
+        padding-top: 0px;
+        padding-left: 25%;
+    }
+    .baby-boss {
+        width: 279px;
+        height: 566px;
+    }
+    .link-nemo {
+        padding-left: 5%;
+    }
+    .nemo-enim-ipsam {
+        font-size: 22px;
+    }
+    .Neque-porro-quisquam {
+        width: 65%;
+        font-size: 28px;
+        margin-bottom: -60px;
+    }
+    .link-nemo a {
+        margin-left: 80%;
+        width: 50px;
+        height: 50px;
+    }
+    .link-nemo a img {
+        width: 50px;
+        height: 50px;
+    }
+    .two-button {
+        text-align: center;
+        padding-left: 5%;
+        border: none;
+    }
+    .just-upload-your-file-here {
+        font-size: 24px;
+        margin-left: -5%;
+    }
+    .two-red-button {
+        width: 95%;
+        height: 110px;
+        border: 2px solid white;
+    }
+    .select-file {
+        padding-left: 25%;
+        padding-top: 10px;
+        font-size: 30px;
+        letter-spacing: 1.4px;
+    }
+    .select-file img {
+        width: 50px;
+        height: 50px;
+    }
+    .first-autor {
+        margin-top: -50px;
+        margin-bottom: 30px;
+    }
+    .first-autor,
+    .two-autor {
+        font-size: 32px;
+    }
+    .scroll-bottom {
+        display: flex;
+        flex-direction: row;
+        padding-top: 80px;
+        padding-left: 22%;
+    }
+    .scroll-to-discover {
+        padding-left: 3%;
+        width:10%;
+        display: block;
+        word-wrap: normal;
+        opacity: 1;
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+    }
+    .scroll-bottom p:nth-child(2) {
+        margin-left: 11%;
+    }
+    .scroll-bottom p:nth-child(3) {
+        display: block;
+    }
+    .scroll-bottom p:nth-child(4) {
+        display: none;
+    }
+    .scroll-bottom a {
+        background-color: white;
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        margin-top: -135px;
+        margin-left: -25%;
+        z-index: 5;
+    }
+    .scroll-bottom a img {
+        width: 40px;
+        height: 45px;
+        margin-top: 30px;
+    }
+    .grid-list-information {
+        grid-template-areas: 
+            "logo-two-block menu-two-block"
+            "number-fraction number-fraction"
+            "list-information list-information"
+            "scroll-bottom-two-block scroll-bottom-two-block";
+        grid-template-columns: 80fr 20fr;
+        grid-template-rows: 130px 220px auto 180px;
+    }
+    .logo-two-block {
+        border: none;
+        padding-left: 5%;
+    }
+    .logo-two-block img {
+        width: 200px;
+        height: 60px;
+    }
+    .number-fraction {
+        grid-area: number-fraction;
+        border: none;
+        text-align: left;
+        padding-left: 5%;
+    }
+    .fraction {
+        transform: rotate(0deg);
+        margin-top: 120px;
+        font-size: 150px;
+        line-height: 0px;
+    }
+    .red-circle {
+        width: 18px;
+        height: 18px;
+        margin-top: -50px;
+        margin-left: 90%;
+    }
+    .gray-circle {
+        width: 11px;
+        height: 11px;
+        margin-top: 50px;
+        margin-left: 90.5%;
+    }
+    .list-information {
+        padding: 0px 13% 0px 5%;
+    }
+    .Quis-autem-vel {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .Ut-enim-ad-minima-veniam {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+    .list-information ol li {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .list-information ol li:before {
+        line-height: 40px;
+    }
+    .list-information li p {
+        line-height: 40px;
+        margin: 0px 0% 0% 3%;
+    }
+    .finibus-bonorum-et-malorum {
+        font-size: 30px;
+        margin-top: 90px;
+        margin-bottom: 40px;
+    }
+    .red-bonorum {
+        font-weight: bold;
+    }
+    .scroll-bottom-two-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+        padding-top: 40px;
+    }
+    .scroll-bottom-two-block p:nth-child(2) {
+        margin-left: 2%;
+    }
+    .scroll-bottom-two-block p {
+        margin-left: -9%;
+        width: 14%;
+    }
+    .scroll-bottom-two-block a img {
+        width: 40px;
+        height: 45px;
+        margin-top: -50px;
+        margin-left: 90%;
+    } 
+}
+@media screen and (max-width:674px){
+    .good-luck-with-your-test-task {
+        font-size: 62px;
+    }
+    .first-autor,
+    .two-autor {
+        font-size: 28px;
+    }
+    .scroll-bottom p:nth-child(2) {
+        margin-left: 14%;
+    }
+    .scroll-bottom a {
+        margin-left: -29%;
+    }
+    .finibus-bonorum-et-malorum {
+        font-size: 26px;
+    }
+    .scroll-bottom-two-block p:nth-child(2) {
+        margin-left: 4%;
+    }
+}
+@media screen and (max-width:655px){
+    .info-header {
+        grid-template-rows: 130px 230px 595px 180px 280px 200px 250px;
+    }
+    .sed-ut-perspiciatis {
+        font-size: 26px;
+    }
+    .number {
+        padding-top: 40px;
+    }
+    .phone-black {
+        width: 31px;
+        height: 31px;
+    }
+    .all-menu a img{
+        margin-top: -40px;
+    }
+    .sed-ut-perspiciatis {
+        font-size: 22px;
+    }
+    .good-luck-with-your-test-task {
+        font-size: 48px;
+    }
+    .baby {
+        padding-left: 20%;
+    }
+    .baby-boss {
+        width: 279px;
+        height: 566px;
+    }
+    .nemo-enim-ipsam {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .Neque-porro-quisquam {
+        font-size: 22px;
+    }
+    .first-autor,
+    .two-autor {
+        font-size: 24px;
+    }
+    .scroll-bottom {
+        padding-left: 10%;
+    }
+    .scroll-bottom p:nth-child(2) {
+        margin-left: 18%;
+    }
+    .scroll-bottom a {
+        margin-left: -25%;
+    }
+    .finibus-bonorum-et-malorum {
+        font-size: 20px;
+    }
+    .scroll-bottom-two-block p {
+        font-size: 28px;
+        width: 10%;
+    }
+    .scroll-bottom-two-block p:nth-child(2) {
+        margin-left: 12%;
+        margin-right: 7%;
+    }
+    .arrow-scroll-two-block {
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width:500px){
+    .sed-ut-perspiciatis {
+        font-size: 20px;
+    }
+    .good-luck-with-your-test-task {
+        font-size: 40px;
+    }
+    .first-autor,
+    .two-autor {
+        font-size: 20px;
+    }
+    .scroll-bottom {
+        padding-left: 6%;
+    }
+    .scroll-bottom p:nth-child(2) {
+        margin-left: 20%;
+    }
+    .scroll-bottom a {
+        margin-left: -27%;
+    }
+    .Ut-enim-ad-minima-veniam {
+        font-size: 36px;
+    }
+    .finibus-bonorum-et-malorum {
+        font-size: 14px;
+    }
+    .scroll-bottom-two-block p {
+        width: 10%;
+    }
+    .scroll-bottom-two-block p:nth-child(2) {
+        margin-left: 16%;
+        margin-right: 7%;
+    }
+    .arrow-scroll-two-block {
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width:375px){
+    .info-header {
+        grid-template-rows: 130px 180px 575px 150px 240px 200px 200px;
+    }
+    .sed-ut-perspiciatis {
+        font-size: 16px;
+    }
+    .good-luck-with-your-test-task {
+        font-size: 34px;
+    }
+    .baby {
+        padding-left: 10%;
+    }
+    .baby-boss {
+        width: 269px;
+        height: 546px;
+    }
+    .nemo-enim-ipsam {
+        font-size: 16px;
+    }
+    .Neque-porro-quisquam {
+        font-size: 16px;
+    }
+    .link-nemo a {
+        margin-left: 70%;
+    }
+    .link-nemo a img{
+        margin-top: 30px;
+    }
+    .two-red-button {
+        width: 95%;
+        height: 70px;
+        border: 2px solid white;
+    }
+    .select-file {
+        padding-left: 10%;
+        padding-top: 0px;
+        font-size: 26px;
+    }
+    .select-file img {
+        width: 40px;
+        height: 40px;
+    }
+    .first-autor {
+        margin-bottom: 10px;
+    }
+    .first-autor,
+    .two-autor {
+        font-size: 18px;
+    }
+    .scroll-to-discover {
+        font-size: 25px;
+    }
+    .fraction {
+        font-size: 100px;
+        margin-top: 70px;
+    }
+    .grid-list-information {
+        grid-template-rows: 130px 140px auto 180px;
+    }
+    .Quis-autem-vel {
+        font-size: 20px;
+    }
+    .Ut-enim-ad-minima-veniam {
+        font-size: 28px;
+    }
+    .list-information ol li {
+        font-size: 20px;
+    }
+    .list-information li p {
+        line-height: 25px;
+    }
+    .list-information ol li:before {
+        content: counter(list) " ";
+        line-height: 25px;
+    }
+    .red-bonorum {
+        font-size: 12px;
+    }
+    .scroll-bottom-two-block p {
+        width: 10%;
+        font-size: 18px;
+    }
+    .scroll-bottom-two-block p:nth-child(2) {
+        margin-left: 10%;
+        margin-right: 7%;
+    }
+    .arrow-scroll-two-block {
+        margin-left: 12%;
+    }
+}
+@media screen and (max-width:320px){
+    .info-header {
+        grid-template-rows: 130px 180px 505px 150px 240px 200px 200px;
+    }
+    .sed-ut-perspiciatis {
+        font-size: 14px;
+    }
+    .good-luck-with-your-test-task {
+        font-size: 32px;
+    }
+    .baby {
+        padding-left: 10%;
+        padding-top: 40px;
+    }
+    .baby-boss {
+        width: 219px;
+        height: 446px;
+    }
+    .first-autor,
+    .two-autor {
+        font-size: 14px;
+    }
+    .scroll-to-discover {
+        font-size: 22px;
+    }
+    .red-bonorum {
+        font-size: 10px;
+    }
+    .scroll-bottom-two-block p:nth-child(2) {
+        margin-left: 12%;
+        margin-right: 7%;
+    }
+}
+@media screen and (min-width:1920px){
+    header {
+        background-image: url(image/bgr-image.png);
+        background-size: 100%;
+    }
+}
